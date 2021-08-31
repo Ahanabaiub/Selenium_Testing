@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/projects/Java/Selenium Testing">
+        <classes>
+            <class name="com.ahanab.Tests.loginTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="com.ahanab.Tests.OpenNote">
+                <methods>
+                    <include name="myNotes"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
